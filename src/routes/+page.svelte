@@ -1,2 +1,19 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+	import Card from "$lib/components/Card.svelte";
+</script>
+
+<svelte:head>
+    <title>Home - nahcrof-ng</title>
+</svelte:head>
+
+<Card title="Suggested">
+    <!-- <a href="/b/random">/b/random - random shit</a> -->
+    <a href="/b/r" class="underline">/b/r - random</a>
+</Card>
+<Card title="Popular">
+    <!--  this will be most recent eventually -->
+    <a href="/b/r" class="underline">/b/r - random</a>
+</Card>
+<Card title="Boards">
+    <a href="/b/r" class="underline">/b/r - random</a>
+</Card>

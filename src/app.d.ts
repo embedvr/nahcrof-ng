@@ -7,6 +7,15 @@ declare global {
 		// interface PageData {}
 		// interface Platform {}
 	}
+	type NahcrofPost = {
+		identifier: string;
+		board: string;
+		name: string;
+		text: string;
+		image: string;
+	}
 }
+
+
 
 export {};
